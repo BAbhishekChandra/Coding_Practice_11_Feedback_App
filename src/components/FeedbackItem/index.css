@@ -15,3 +15,18 @@
   font-weight: 400;
   color: #1e293b;
 }
+
+@media screen and (max-width: 576px) {
+  .list-item {
+    margin: 0 20px 0 20px;
+  }
+
+  .image-element {
+    width: 30px;
+    height: 30px;
+  }
+
+  .image-name {
+    font-size: 10px;
+  }
+}

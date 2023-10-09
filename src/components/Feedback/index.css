@@ -65,3 +65,31 @@
   font-weight: 300;
   color: #1e293b;
 }
+
+@media screen and (max-width: 576px) {
+  .feedback-container {
+    width: 400px;
+  }
+
+  .feedback-heading {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .thank-you-container {
+    width: 400px;
+  }
+
+  .loveEmojiUrl {
+    width: 55px;
+    height: 55px;
+  }
+
+  .thank-you-heading {
+    font-size: 26px;
+  }
+
+  .feedback-description {
+    font-size: 10px;
+  }
+}
